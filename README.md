@@ -1,59 +1,59 @@
-*Project Overview
-Employee burnout has become a significant concern in organizations. This project analyzes multiple factors (workload, mental fatigue, work hours, job satisfaction, etc.) and uses a regression model to predict burnout scores.
+#Project Overview<br>
+Employee burnout has become a significant concern in organizations. This project analyzes multiple factors (workload, mental fatigue, work hours, job satisfaction, etc.)<br> and uses a regression model to predict burnout scores.
+<br>
+The goal is to help companies identify employees at risk and take preventive measures.<br>
+<br>
 
-The goal is to help companies identify employees at risk and take preventive measures.
+*Features<br>
+✔ Data Cleaning & Preprocessing<br>
+✔ Exploratory Data Analysis (EDA)<br>
+✔ Feature Engineering<br>
+✔ Train/Test Split<br>
+✔ Linear Regression Model<br>
+✔ Model Evaluation (R² score, MAE, RMSE)<br>
+✔ Achieved 91% accuracy<br>
+<br>
+*TechStack<br>
+Language: Python<br>
+Libraries:<br>
+<br>
+Pandas<br>
 
+NumPy<br>
 
-*Features
-✔ Data Cleaning & Preprocessing
-✔ Exploratory Data Analysis (EDA)
-✔ Feature Engineering
-✔ Train/Test Split
-✔ Linear Regression Model
-✔ Model Evaluation (R² score, MAE, RMSE)
-✔ Achieved 91% accuracy
+Matplotlib / Seaborn<br>
 
-*TechStack
-Language: Python
-Libraries:
+Scikit-Learn<br>
 
-Pandas
+Jupyter Notebook<br>
+<br>
+*Model Used<br>
+Linear Regression (Supervised Learning)<br>
 
-NumPy
+Used as it fits continuous value prediction and performs well with numerical datasets.<br>
+<br>
+*Model Evaluation<br>
 
-Matplotlib / Seaborn
+Accuracy: 91%<br>
 
-Scikit-Learn
+Mean Absolute Error (MAE): (add from your code if available)<br>
 
-Jupyter Notebook
+Root Mean Square Error (RMSE): (optional)<br>
+<br>
+**Project Workflow<br>
 
-*Model Used
-Linear Regression (Supervised Learning)
+1.Loaded dataset<br>
 
-Used as it fits continuous value prediction and performs well with numerical datasets.
+2.Cleaned missing values and outliers<br>
 
-*Model Evaluation
+3.Performed EDA<br>
 
-Accuracy: 91%
+4.Correlation analysis<br>
 
-Mean Absolute Error (MAE): (add from your code if available)
+5.Selected important features<br>
 
-Root Mean Square Error (RMSE): (optional)
+6.Applied train/test split<br>
 
-**Project Workflow
+7.Trained Linear Regression model<br>
 
-1.Loaded dataset
-
-2.Cleaned missing values and outliers
-
-3.Performed EDA
-
-4.Correlation analysis
-
-5.Selected important features
-
-6.Applied train/test split
-
-7.Trained Linear Regression model
-
-8.Evaluated model performance
+8.Evaluated model performance<br>
